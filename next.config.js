@@ -10,10 +10,7 @@ const nextConfig = {
   
   // Optimize builds
   experimental: {
-    // Enable build cache
-    turbotrace: {
-      logLevel: 'error'
-    }
+    // (removed turbotrace. See https://nextjs.org/docs/messages/invalid-next-config)
   },
   
   // Custom webpack config to handle file conflicts and path resolution
